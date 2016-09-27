@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Subject implements ISubject {
+	
 	private int state;
 	private List<IObserver> observers = new ArrayList<IObserver>();
 	
